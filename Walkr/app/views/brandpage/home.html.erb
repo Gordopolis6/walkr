@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html lang = "em">
+<head>
+	<meta charset = "utf-8">
+	<title>Walkr</title>
+	<link rel="stylesheet" type = "text/css" href="style.css">
+</head>
+<body>
+	<ul class="nav">
+		<div id="logo">
+			<li><a>Walkr</a></li>
+		</div>
+		
+		<li><a href="a">About</a></li>
+		<li><a href="a">Contact Us</a></li>
+		<li><a href="a">Sign In</a></li>
+		
+	</ul>
+	<div id="content">
+		<div id="wrap">
+			<div class="left">
+			    <%= image_tag("walk_dog.jpg", :alt => "walk_dog feed") %>
+			</div>
+		</div>
+	</div>
+	
+	<div id= "login">
+		<div id="wrap">
+			<div class="right">
+		<form>
+			<input type="text" id= "username" placeholder="Username"/>
+			<input type="password" id= "password" placeholder="password"/>
+			<input type="email" id= "email" placeholder="Email"/>
+			<input type="button" id= "login-btn"value="Sign up"/>
+			<p align="right">
+			or
+			</p>
+			<input type="button" id= "login-btn" value="Sign up with Twitter"/>
+		</form>	
+		</div>
+		</div>
+	</div>
+		
+</body>
+</html>
+

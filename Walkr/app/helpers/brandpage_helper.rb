@@ -1,0 +1,2 @@
+module BrandpageHelper
+end
